@@ -37,6 +37,7 @@ class App extends Component{
           console.log(event.target.value)
         }}
       />
+     {/* test */}
       {this.state.monsters.map((monster)=> {
         return(
           <div key={monster.id}>
